@@ -1,0 +1,11 @@
+<div style="text-align: center;">
+    <h1>PATENTI</h1>
+    <p style="text-align: left;">Ecco la lista delle patenti disponibili:</p>
+    <div class="patente" *ngFor="let p of patenti">
+        <h5>{{p.nome}}</h5>
+        Descrizione:
+        <p>{{p.descrizione}}</p>
+    </div>
+
+    <a href="/">Home</a>
+</div>
