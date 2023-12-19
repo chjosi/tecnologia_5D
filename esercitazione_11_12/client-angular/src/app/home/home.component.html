@@ -1,0 +1,18 @@
+<h1>HOME</h1>
+<p>Benvenuto nella scuola di guida!</p>
+<p>
+    <b>CHI SIAMO</b>:<br>
+    Scuola guida Chavez nasce dalla profonda collaborazione di esperti nel campo dell’educazione
+    stradale da più di 20 anni.<br>
+    La piattaforma si rivela come il primo riferimento in Italia che presenta un aiuto
+    concreto agli studenti per conseguire la patente di guida tramite preparazione completa
+    sulla teoria e accesso diretto alle offerte delle autoscuole locali.
+</p>
+<p>I nostri servizi:</p>
+<ul>
+    <li *ngFor="let s of servizi">{{s.nome}}</li>
+</ul>
+<p>Qui sotto trovi le altre sezioni:</p>
+<a [routerLink]="['/info']">Patenti</a>
+<br><br>
+<a [routerLink]="['/contacts']">Contatti</a>
